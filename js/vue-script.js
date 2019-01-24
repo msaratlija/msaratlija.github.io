@@ -5,7 +5,7 @@ var section = {
 
 var educationData = {
     edu: [{
-            period: 'Jul/2011 - Dec/2015',
+            period: '##Jul/2011 - Dec/2015',
             location: 'Location: Croatia, Zagreb',
             role: 'Bachelor of Electrical Engineering',
             facility: 'Zagreb University of Applied Sciences',
@@ -72,27 +72,20 @@ var educationData = {
     ]
 }
 
-
-
-
-
 Vue.component('element-info', {
-    props: ['section'],
+    props: ['edu_data'],
     template: '<div class="row content">' +
         '<div class="col-md-4 col-md-offset-2">' +
-        '<p class="detail">{{section.period}} </p>' +
-        '<p>{{section.location}}</p>' +
+        '<p class="detail">{{edu_data.period}} </p>' +
+        '<p>{{edu_data.location}}</p>' +
         '</div>' +
         '<div class="col-md-6">' +
-        '<p class="detail">{{section.role}}</p>' +
-        '<p class="detail-2">{{section.facility}}</p>' +
-        '<p>{{section.description}}</p>' +
+        '<p class="detail">{{edu_data.role}}</p>' +
+        '<p class="detail-2">{{edu_data.facility}}</p>' +
+        '<p>{{edu_data.description}}</p>' +
         '</div>' +
         '</div>',
 });
-
-
-
 
 var sectionEducation = new Vue({
     el: '#training',
@@ -100,30 +93,3 @@ var sectionEducation = new Vue({
         return educationData
     }
 });
-
-
-// var sectionProjects = new Vue({
-//     el: '#projects',
-//     data: () => {
-//         return {
-//             urls: [
-//                 { url: "./project-img/android3.png" },
-//                 { url: "./project-img/android3.png" },
-//             ]
-//         }
-//     }
-// });
-
-// var sectionAbout = new Vue({
-//     el: '#education',
-//     components: {
-//         'section-title': setSectionTemplate(section.title.education),
-//     },
-// });
-
-// var app = new Vue({
-//     el: '#app',
-//     data: {
-//         message: 'Hello Vue!'
-//     },
-// });

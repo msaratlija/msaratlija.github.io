@@ -11,13 +11,6 @@
 
         gtag('config', 'UA-90408628-1');
     </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marko Saratlija</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="./css/font-awesome/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -29,6 +22,16 @@
         })(window, document, 'script', 'dataLayer', 'GTM-TSZS6ZM');
     </script>
     <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marko Saratlija</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example" data-offset="0">
@@ -168,7 +171,7 @@
                 </div>
             </div>
 
-            <element-info v-for="item in edu" :section="item"></element-info>
+            <element-info v-for="item in edu" :edu_data="item"></element-info>
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-2">
@@ -176,7 +179,7 @@
                 </div>
             </div>
 
-            <element-info v-for="item in exp" :section="item"></element-info>
+            <element-info v-for="item in exp" :edu_data="item"></element-info>
         </div>
     </section>
 
