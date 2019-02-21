@@ -382,6 +382,13 @@ div.img-overlay:hover {
     margin: auto;
 }
 
+div.img-text {
+    width: 220px;
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+}
+
 .modal-header {
     background: #29B6F6;
 }
