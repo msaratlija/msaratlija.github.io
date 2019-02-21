@@ -5,17 +5,17 @@ var section = {
 
 var educationData = {
     edu: [{
-            period: 'Jul/2011 - Dec/2015',
+            period: 'Sep/2011 - Dec/2015',
             location: 'Location: Croatia, Zagreb',
             role: 'Bachelor of Electrical Engineering - Communication and Computer technology',
-            facility: 'Zagreb University of Applied Sciences',
+            facility: 'Zagreb University of Applied Sciences (TVZ)',
             description: 'I have opted for the course Communication and Computer Technology since of interests in computer systems and scientific principles they are based on. Courses gave me insight to Programming, Computer Systems, Networking, Embedded Electronics, Telecommunications, etc.'
         },
         {
             period: 'Feb/2014 - Jun/2014',
             location: 'Location: Croatia, Zagreb',
             role: 'Professional Practice',
-            facility: 'Zagreb University of Applied Sciences',
+            facility: 'Zagreb University of Applied Sciences (TVZ)',
             description: 'I have worked on the laboratory system project "Sunflower", where I have programmed, tested and optimized a microcontroller (MBED) built-in in control module for solar system navigation towards the Sun.'
         },
         {
@@ -53,7 +53,7 @@ var educationData = {
             location: 'Location: Croatia, Zagreb',
             role: 'Software Developer - Intership',
             facility: 'Ericsson Nikola Tesla d.d.',
-            description: 'I have developed Liferay Enterprise Portal with J2EE technologys in team implementing SCRUM methodology. Development included portlets development and modifications (Java, MVC, Servlets, JSP, XML), integration and configuration of existing applications, database intergration (Oracle SQL).'
+            description: 'I have worked on Liferay Enterprise Portal with J2EE technologys in a team using SCRUM methodology. Development included portlets, modifications (Java, MVC, Servlets, JSP, XML), integration and configuration of existing applications and database intergration (Oracle SQL).'
         },
         {
             period: 'Feb/2015 - Apr/2015',
