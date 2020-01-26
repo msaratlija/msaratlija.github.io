@@ -5,6 +5,13 @@ var section = {
 
 var educationData = {
     edu: [{
+            period: 'Sep/2019 - Jun/2021',
+            location: 'Location: Denmark, Copenhagen',
+            role: 'Master of Science - Innovative Communication Technologies and Entrepreneurship',
+            facility: 'Aalborg University Copenhagen (AAU)',
+            description: 'The program combines technical engineering with innovation, creativity, market and user perspectives.'
+        },
+		{
             period: 'Sep/2011 - Dec/2015',
             location: 'Location: Croatia, Zagreb',
             role: 'Bachelor of Electrical Engineering - Communication and Computer technology',
@@ -35,7 +42,7 @@ var educationData = {
     ],
     exp: [
         {
-            period: 'Aug/2018 - Present',
+            period: 'Aug/2018 - Aug,2019',
             location: 'Location: Denmark, Copenhagen',
             role: 'Software Engineer',
             facility: 'Motorola Solutions A/S',
